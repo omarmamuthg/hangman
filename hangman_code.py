@@ -71,3 +71,5 @@ lon=len(randum)
 for _ in range(lon):
 	display+="_"
 
+# Se llama a la función play_hangman para iniciar el juego
+play_hangman(randum, display, stages, lifes)
